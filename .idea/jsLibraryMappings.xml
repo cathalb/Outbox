@@ -3,5 +3,6 @@
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/src/app/index.html" libraries="{angular}" />
     <file url="file://$PROJECT_DIR$/src/app/js/app.js" libraries="{angular}" />
+    <file url="file://$PROJECT_DIR$/src/app/js/services/emails.js" libraries="{angular}" />
   </component>
 </project>
