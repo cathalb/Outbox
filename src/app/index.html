@@ -4,7 +4,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <script src="src/node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
 </head>
 <body ng-app="OutboxApp">
 <div class="header">
@@ -17,7 +17,7 @@
     <div class="container">
 
         <div class="email" ng-repeat="email in emails">
-            <span class="from"> </span> <span class="subject"> </span><span class="date"> </span>
+            <span class="from"> {{ email.from }} </span> <span class="subject"> {{ email.subject }} </span><span class="date"> {{ email.datetime | date:'medium' }} </span>
         </div>
 
     </div>
